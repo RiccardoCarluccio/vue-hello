@@ -4,14 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/theme.css">
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
   <title>Vue Hello</title>
 </head>
 <body>
   
-  <div id="app">
+  <div id="app" class="container">
     <h1>{{vueGaming}}</h1>
+
+    <button id="click-test" class="button" @click="clickTest">Vlick Test</button>
   </div>
 
   <script src="JS/main.js"></script>

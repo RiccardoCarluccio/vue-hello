@@ -4,6 +4,7 @@ const app = Vue.createApp({
       vueGaming: "Hell-o",
       vueGamingSecond: "Jell-o",
       inputClass: "click-test-input",
+      anotherDivClass: "such-wow",
     }
   },
 
@@ -17,3 +18,14 @@ const app = Vue.createApp({
   }
 })
 app.mount("#app");
+
+const ANOTHER_DIV = document.createElement('div');
+ANOTHER_DIV.innerHTML = `
+  <div :class="anotherDivClass">
+  </div>
+  <div class="such-wow">
+  </div>
+`
+
+const CONTAINER = document.querySelector('.container');
+CONTAINER.append(ANOTHER_DIV);

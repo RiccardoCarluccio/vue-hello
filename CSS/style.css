@@ -34,3 +34,9 @@ input {
   border: 2px dashed goldenrod;
   font-weight: 600;
 }
+
+.such-wow {
+  height: 150px;
+  width: 150px;
+  background-color: lightsalmon;
+}

@@ -23,7 +23,9 @@ body {
 }
 
 input {
-  border: 2px dashed cadetblue
+  border: 2px dashed cadetblue;
+  text-align: center;
+  padding: 1rem 3rem;
 }
 
 .button {

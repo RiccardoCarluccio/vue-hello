@@ -2,6 +2,7 @@ const app = Vue.createApp({
   data() {
     return {
       vueGaming: "Hell-o",
+      vueGamingSecond: "Jell-o",
     }
   },
 

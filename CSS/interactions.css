@@ -1,5 +1,5 @@
 .bg-cornflowerblue {
   background-color: cornflowerblue;
   color: white;
-  border: cadetblue;
+  border: 2px solid cornflowerblue;
 }

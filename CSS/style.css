@@ -29,5 +29,8 @@ input {
 }
 
 .button {
-  padding: 1rem;
+  padding: 1rem 1.5rem;
+  background-color: greenyellow;
+  border: 2px dashed goldenrod;
+  font-weight: 600;
 }

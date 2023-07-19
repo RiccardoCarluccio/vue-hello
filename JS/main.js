@@ -3,12 +3,16 @@ const app = Vue.createApp({
     return {
       vueGaming: "Hell-o",
       vueGamingSecond: "Jell-o",
+      inputClass: "click-test-input",
     }
   },
 
   methods: {
-    clickTest: function () {
-      document.getElementById('click-test').classList.toggle('bg-cornflowerblue');
+    clickTestButton: function () {
+      document.getElementById('click-test-button').classList.toggle('button-active');
+    },
+    clickTestInput: function () {
+      document.querySelector('.click-test-input').classList.toggle('input-selected');
     }
   }
 })

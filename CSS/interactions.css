@@ -1,5 +1,9 @@
-.bg-cornflowerblue {
+.button-active {
   background-color: cornflowerblue;
   color: white;
   border: 2px solid cornflowerblue;
+}
+
+.input-selected {
+  border: 2px dotted purple;
 }

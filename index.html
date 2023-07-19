@@ -14,9 +14,9 @@
   
   <div id="app" class="container">
     <h1>{{vueGaming}}</h1>
-    <input v-model="vueGamingSecond">
+    <input v-model="vueGamingSecond" @click="clickTestInput" :class="inputClass">
 
-    <button id="click-test" class="button" @click="clickTest">Vlick Test</button>
+    <button id="click-test-button" class="button" @click="clickTestButton">Vlick Test</button>
   </div>
 
   <script src="JS/main.js"></script>

@@ -40,3 +40,8 @@ input {
   width: 150px;
   background-color: lightsalmon;
 }
+
+.gapbox {
+  display: flex;
+  gap: 2rem;
+}

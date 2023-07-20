@@ -14,18 +14,23 @@ const app = Vue.createApp({
     },
     clickTestInput: function () {
       document.querySelector('.click-test-input').classList.toggle('input-selected');
-    }
+    },
+    boing: function () {
+      document.querySelector('.such-wow').classList.toggle('biong'); //il querySelector prende solo il primo elemento
+    },
   }
 })
-app.mount("#app");
 
 const ANOTHER_DIV = document.createElement('div');
+ANOTHER_DIV.classList.add('gapbox');
 ANOTHER_DIV.innerHTML = `
-  <div :class="anotherDivClass">
+  <div :class="anotherDivClass" @click="boing">
   </div>
-  <div class="such-wow">
+  <div class="such-wow" @click="boing">
   </div>
 `
 
 const CONTAINER = document.querySelector('.container');
 CONTAINER.append(ANOTHER_DIV);
+
+app.mount("#app");
